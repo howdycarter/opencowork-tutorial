@@ -1,5 +1,7 @@
 # OpenCowork Tutorial
 
+> ⚠️ **Not for production use.** This is the supporting material for a [video tutorial](https://youtu.be/jMgzHt2MIJ8).
+
 Open-source alternative to Claude Cowork. Grant folder access, describe a task, and let an AI agent execute it autonomously.
 
 Works with **Ollama** (local) or **HuggingFace** (cloud).
