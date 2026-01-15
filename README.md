@@ -1,4 +1,4 @@
-# OpenCowork
+# OpenCowork Tutorial
 
 Open-source alternative to Claude Cowork. Grant folder access, describe a task, and let an AI agent execute it autonomously.
 
