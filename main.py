@@ -10,6 +10,10 @@ import os
 import sys
 import warnings
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file before importing agent
+load_dotenv()
 
 # Silence noisy warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="pydantic")
@@ -20,7 +24,6 @@ from agents import Runner
 # Import tools module to set ALLOWED_DIRECTORIES
 import tools
 from agent import agent, MODEL_ID, BASE_URL, API_KEY
-from dotenv import load_dotenv
 
 
 # =============================================================================
